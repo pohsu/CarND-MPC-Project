@@ -8,6 +8,7 @@ using namespace std;
 
 class MPC {
  public:
+  vector<double> actuations;
   MPC();
 
   virtual ~MPC();
